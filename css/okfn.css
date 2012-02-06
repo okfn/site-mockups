@@ -761,12 +761,12 @@ header li.dropdown:hover .dropdown-menu {
     margin-bottom: 10px;
 }
 footer {
-    background: url("../images/footer-watermark copy.png") no-repeat scroll right top #222222;
+    background: url("http://assets.okfn.org/web/images/footer-watermark.png") no-repeat scroll right top #222222;
     margin-top: 50px;
     padding: 0;
 }
 footer > .inner {
-    background: url("../images/footer-bevel.png") repeat-x scroll center top transparent;
+    background: url("http://assets.okfn.org/web/images/footer-bevel.png") repeat-x scroll center top transparent;
     color: #FFFFFF;
     min-height: 190px;
     padding: 10px 0 30px;
