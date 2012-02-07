@@ -338,3 +338,27 @@ body#bp-default #wp-admin-bar .padder {
 	position:relative;
 	background-color:#FFF;
 }
+
+
+footer {
+	font-size:11px;
+	color:#c0c0c0;
+}
+footer h5 {
+	color:#c0c0c0;
+	font-size:18px;
+	padding:8px 0px;
+	font-weight:normal;
+}
+footer h5.okfnLogo {
+	background-image:url(http://assets.okfn.org/web/images/header-logo.png);
+	background-repeat:no-repeat;
+	padding-left:35px;
+}
+footer .inner a:link,
+footer .inner a:visited {
+	color:#c0c0c0;
+}
+footer .inner a:hover {
+	color:#FFF;
+}
