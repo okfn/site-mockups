@@ -316,6 +316,8 @@ body#bp-default #wp-admin-bar .padder {
 #sidebar .authors .author-list li {
 	display:inline-block;
 	margin:6px 4px 0px 0px;
+	zoom:1;
+	*display: inline;
 }
 #sidebar .authors .author-list a {
 	display:block;
