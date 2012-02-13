@@ -47,7 +47,9 @@
 	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2); 
 }
 
-.button {
+.button,
+input[type="submit"],
+.btn.primary {
 	display:inline-block;
 	padding:0px 15px;
 	height:30px;
@@ -71,7 +73,9 @@
 	-moz-box-shadow: 0px 0px 2px 0px #000000;
 	box-shadow: 0px 0px 2px 0px #000000; 
 }
-a.button:hover {
+a.button:hover,
+input[type="submit"]:hover,
+.btn.primary:hover {
 	color: #FFFFFF;
 	background: #35897b; /* Old browsers */
 	background: -moz-linear-gradient(top,  #35897b 0%, #1e5e54 100%); /* FF3.6+ */
@@ -130,6 +134,18 @@ input:focus, textarea:focus {
 }
 .padderH {
 	padding:0px 10px;
+}
+
+a[rel~="tooltip"] {
+	color:inherit;
+	text-decoration:none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #404040;
+}
+
+label .required {
+	color:#3E8F80;
 }
 
 
@@ -307,6 +323,9 @@ body#bp-default #wp-admin-bar .padder {
 }
 #content .post.preview .image {
 	height:196px;
+}
+#content .post.preview .image img {
+	width:330px;
 }
 #content .post.preview .text {
 	overflow:hidden;
@@ -531,10 +550,55 @@ footer .inner a:hover {
 #blog-single #respond {
 	background-color:#FFF;
 }
+#blog-single #respond form {
+  padding: 0px;
+	margin:0px;
+	position:relative;
+}
+#blog-single #respond .comment-avatar-box {
+	float:none;
+	position:absolute;
+	top:-30px;
+	right:0px;
+}
 #blog-single #respond h3 {
     color: #404040;
 }
 #blog-single #respond fieldset {
 	display:inline-block;
-	width:300px;
+	width:320px;
+	padding:0px;
+}
+#blog-single #respond fieldset.left {
+	padding-right:10px;
+}
+#blog-single #respond input[type="text"] {
+	width:320px;
+}
+#blog-single #respond .form-allowed-tags {
+	float:right;
+	font-size:11px;
+	margin:5px 0px 0px 0px;
+}
+#blog-single #respond textarea {
+	width:320px;
+	height:176px;
+}
+#blog-single #respond input#captcha_code {
+	width:130px;
+	margin-left:10px;
+}
+#blog-single #respond .captchaSizeDivLarge img {
+	float:left;
+}
+#blog-single #respond #si_refresh_com {
+	float:right;
+}
+#blog-single #respond #captcha_code_label {
+	width:120px;
+	display:inline-block;
+	margin:0px 0px 0px 10px;
+}
+#blog-single #respond .form-submit {
+	text-align:right;
 }

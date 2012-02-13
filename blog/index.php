@@ -127,184 +127,22 @@
 </header>
 <h2 id="site-description"></h2>
 <div class="container">
-  <div id="content" role="main"> 
+  <div id="content"> 
     
     <!-- Static Blog Content (left column) -->
-    <div class="box">
-      <div id="blog-single" class="padder">
-        <div class="post-7714 post type-post status-publish format-standard hentry category-annotator category-bibliographic category-bibliographica category-free-culture category-ideas category-metadata category-okf-projects category-open-content category-open-data category-open-knowledge category-texts category-wg-humanities category-wg-open-bibliographic-data category-wg-public-domain category-working-groups" id="post-7714">
-          
-          <div class="post-content">
-            <div class="padderH">
-              <h2 class="posttitle">TEXTUS: an open source platform for working with collections of texts and metadata</h2>
-              <p class="date"> December 20, 2011 <span>in <a rel="category tag" title="View all posts in Annotator" href="http://blog.okfn.org/category/okf-projects/annotator/">Annotator</a>, <a rel="category tag" title="View all posts in Bibliographic" href="http://blog.okfn.org/category/bibliographic/">Bibliographic</a>, <a rel="category tag" title="View all posts in Bibliographica" href="http://blog.okfn.org/category/okf-projects/bibliographica/">Bibliographica</a>, <a rel="category tag" title="View all posts in Free Culture" href="http://blog.okfn.org/category/free-culture/">Free Culture</a>, <a rel="category tag" title="View all posts in Ideas" href="http://blog.okfn.org/category/ideas/">Ideas</a>, <a rel="category tag" title="View all posts in Metadata" href="http://blog.okfn.org/category/metadata/">Metadata</a>, <a rel="category tag" title="View all posts in OKF Projects" href="http://blog.okfn.org/category/okf-projects/">OKF Projects</a>, <a rel="category tag" title="View all posts in Open Content" href="http://blog.okfn.org/category/open-content/">Open Content</a>, <a rel="category tag" title="View all posts in Open Data" href="http://blog.okfn.org/category/open-data/">Open Data</a>, <a rel="category tag" title="View all posts in Open Knowledge" href="http://blog.okfn.org/category/open-knowledge/">Open Knowledge</a>, <a rel="category tag" title="View all posts in Texts" href="http://blog.okfn.org/category/texts/">Texts</a>, <a rel="category tag" title="View all posts in WG Humanities" href="http://blog.okfn.org/category/working-groups/wg-humanities/">WG Humanities</a>, <a rel="category tag" title="View all posts in WG Open Bibliographic Data" href="http://blog.okfn.org/category/working-groups/wg-open-bibliographic-data/">WG Open Bibliographic Data</a>, <a rel="category tag" title="View all posts in WG Public Domain" href="http://blog.okfn.org/category/working-groups/wg-public-domain/">WG Public Domain</a>, <a rel="category tag" title="View all posts in Working Groups" href="http://blog.okfn.org/category/working-groups/">Working Groups</a></span> <span class="post-utility alignright"></span> </p>
-            </div>
-           
-            <div class="image" style="background-image:url(http://farm8.staticflickr.com/7141/6478263003_4c46df9158_o.jpg)">
-            </div>
-            
-            <div class="padder">
-              <div class="entry">
-                <p>Since <a href="http://jonathangray.org/2011/11/04/ideas-for-openphilosophy-org/">finally blogging about OpenPhilosophy.org</a> last month I've been thinking about how one could make a generic open source platform that could be used to power it, and other things like it. Enter 'TEXTUS':</p>
-                
-                <blockquote>
-                  <p>TEXTUS is an open source platform for working with collections of texts and metadata. It enables users to transcribe, translate, and annotate texts, and to manage associated bibliographic data.</p>
-                </blockquote>
-                <p>Here's the rationale:</p>
-                <blockquote>
-                  <p>The combination of freely available digital copies of public domain works, open bibliographic data and open source tools has the potential to revolutionise research in the humanities. However there are currently numerous obstacles which mean that they are often under-utilised by scholars and students in teaching and research:</p>
-                  <ul>
-                    <li>From classic literary and cultural works, to letters, drafts, notes, and other historical documents, there is a huge amount of freely available public domain material that is highly relevant to scholars and students engaged in research in the humanities. But these works can be difficult to find, difficult to work with, and works by a given author may be scattered in a variety of locations. Search results may be confusing or unclear. Automated Optical Character Recognition of texts may be inaccurate or incomplete. The metadata for the work for may be unclear and the provenance and rights status for a given digital edition may be unknown. It is not always clear how to cite passages from digital editions of public domain works.</li>
-                    <li>Over the past few years, libraries and other cultural heritage organisations have been releasing open data about works they hold. This has the potential to be a rich resource for scholars interested in building scholarly bibliographies and working with large collections of texts. While there are a growing number of tools and services for working with bibliographic data, many researchers may not know how to use these, and online bibliographies may not link through to digital copies of public domain works which are available online.</li>
-                    <li>There are a growing number of open source tools for transcribing, translating and annotating texts. However many of these are one off projects and it may not be clear how to deploy the tools in relation to a given text or collection of texts.</li>
-                  </ul>
-                </blockquote>
-                <p>Here's what it would do:</p>
-                <blockquote>
-                  <p>The TEXTUS platform will enable users to:</p>
-                  <ul>
-                    <li>Transcribe texts from images, PDFs or other non-machine readable sources.</li>
-                    <li>View texts and translations side by side &ndash; and create new translations of texts for use in teaching or research.</li>
-                    <li>Annotate texts, and share annotations with groups of users, or with the public.</li>
-                    <li>Curate, share and export collections of bibliographic metadata (scholarly references), including metadata associated with texts published on the platform.</li>
-                  </ul>
-                </blockquote>
-                <p>Here's a peek under the hood:</p>
-                <blockquote>
-                  <p>TEXTUS builds on and utilises existing best of breed open source components and software packages such as:</p>
-                  <ul>
-                    <li><a href="http://annotateit.org/">Annotator</a> &ndash; an open-source Javascript tool to enable annotations to be added to any webpage</li>
-                    <li><a href="http://bibserver.okfn.org/">Bibserver</a> &ndash; which includes numerous tools, services and standards for working with bibliographic metadata</li>
-                    <li><a href="http://openliterature.net/">Open Literature</a> &ndash; which powers OpenShakespeare, OpenMilton and other sites</li>
-                    <li><a href="http://publicdomainworks.net/">Public Domain Works</a> &ndash; a nascent directory of works which have entered the public domain in different countries around the world</li>
-                    <li><a href="http://scripto.org/">Scripto</a> &ndash; an open source tool that enables users to contribute transcriptions to online documentary projects</li>
-                    <li><a href="http://wordpress.org/">WordPress</a> &ndash; due to its popularity, ease of use, and extensive plugin system, TEXTUS will use WordPress as its main CMS</li>
-                  </ul>
-                </blockquote>
-                <p>If you're interested, you can join discussion on the Open Knowledge Foundation's <a href="http://lists.okfn.org/mailman/listinfo/open-humanities">open-humanities</a> mailing list.</p>
-                <p><span displaytext="share" st_url="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/" st_title="TEXTUS: an open source platform for working with collections of texts and metadata" class="st_facebook_hcount" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stMainServices st-facebook-counter" style="background-image: url(&quot;http://w.sharethis.com/images/facebook_counter.png&quot;);">&nbsp;<img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">16</span></span></span></span></span></span><span displaytext="share" st_url="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/" st_title="TEXTUS: an open source platform for working with collections of texts and metadata" class="st_twitter_hcount" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stMainServices st-twitter-counter" style="background-image: url(&quot;http://w.sharethis.com/images/twitter_counter.png&quot;);">&nbsp;<img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">97</span></span></span></span></span></span><span displaytext="share" st_url="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/" st_title="TEXTUS: an open source platform for working with collections of texts and metadata" class="st_email_hcount" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stButton_gradient"><span class="chicklets email">share</span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">0</span></span></span></span></span></span><span displaytext="share" st_url="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/" st_title="TEXTUS: an open source platform for working with collections of texts and metadata" class="st_sharethis_hcount" st_processed="yes"><span style="text-decoration:none;color:#000000;display:inline-block;cursor:pointer;" class="stButton"><span><span class="stButton_gradient"><span class="chicklets sharethis">share</span><img src="http://w.sharethis.com/images/check-big.png" style="position: absolute; top: -7px; right: -7px; width: 19px; height: 19px; max-width: 19px; max-height: 19px; display: none;"></span><span class="stArrow"><span class="stButton_gradient stHBubble" style="display: inline-block;"><span class="stBubble_hcount">155</span></span></span></span></span></span></p>
-                </div>
-              </div>
-            </div>
-          
-        </div>
-        <div id="comments">
-          <h3> 2 responses to <em>TEXTUS: an open source platform for working with collections of texts and metadata</em> </h3>
-          <ol class="commentlist">
-            <li id="comment-3584" class="comment even thread-even depth-1">
-              <div class="comment-avatar-box">
-                <div class="avb"> <a rel="nofollow" href="http://it.wikisource.org"> <img width="50" height="50" class="avatar avatar-50 photo" src="http://0.gravatar.com/avatar/e52836d2e4ad4af15b3d63666a35a6b4?s=50&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G" alt=""> </a> </div>
-              </div>
-              <div class="comment-content">
-                <div class="comment-meta">
-                  <p> <a rel="nofollow" href="http://it.wikisource.org">Alex Brollo</a> said on <a href="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/#comment-3584"><span class="time-since">December 21, 2011</span></a> </p>
-                </div>
-                <div class="comment-entry">
-                  <p>Very interesting.</p>
-                  <p>I'm an active user into wikisource.org, the wikipedia subproject which covers transciptions of books. I've a lot of questions about this project, which seems a great one; is there some current textus/wikisource cohoperation? Some common standard and some interfacing would be great.</p>
-                </div>
-                <div class="comment-options"> <a onclick="return addComment.moveForm(&quot;comment-3584&quot;, &quot;3584&quot;, &quot;respond&quot;, &quot;7714&quot;)" href="/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/?replytocom=3584#respond" class="comment-reply-link">Reply</a> </div>
-              </div>
-            </li>
-            <li id="comment-3588" class="comment odd alt thread-odd thread-alt depth-1">
-              <div class="comment-avatar-box">
-                <div class="avb"> <a rel="nofollow" href=""> <img width="50" height="50" class="avatar avatar-50 photo" src="http://0.gravatar.com/avatar/cd4f7360d7430e7aa3c5510969456e49?s=50&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G" alt=""> </a> </div>
-              </div>
-              <div class="comment-content">
-                <div class="comment-meta">
-                  <p> <a rel="nofollow" href="">Tom</a> said on <a href="http://blog.okfn.org/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/#comment-3588"><span class="time-since">December 22, 2011</span></a> </p>
-                </div>
-                <div class="comment-entry">
-                  <p>Hi, Alex.</p>
-                  <p>We could try to organize your questions and following answers here</p>
-                  <p><a rel="nofollow" href="http://wiki.okfn.org/Projects/Textus">http://wiki.okfn.org/Projects/Textus</a></p>
-                  <p>You are also a wiki guy, so you know it'll be good to organize some ideas there. Funny that I was planning something involving books digitalization (I was thought about wikisource!) and Rufus Pollock told me about me Textus.</p>
-                  <p><a rel="nofollow" href="http://okfnpad.org/scratchpad">http://okfnpad.org/scratchpad</a></p>
-                  <p>See you!</p>
-                  <p>Tom</p>
-                </div>
-                <div class="comment-options"> <a onclick="return addComment.moveForm(&quot;comment-3588&quot;, &quot;3588&quot;, &quot;respond&quot;, &quot;7714&quot;)" href="/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/?replytocom=3588#respond" class="comment-reply-link">Reply</a> </div>
-              </div>
-            </li>
-          </ol>
-          <!-- .comment-list --> 
-          
-        </div>
-        <!-- #comments -->
-        
-        <div id="respond">
-          <h3 id="reply-title">Leave a reply <small><a style="display:none;" href="/2011/12/20/textus-an-open-source-platform-for-working-with-collections-of-texts-and-metadata/#respond" id="cancel-comment-reply-link" rel="nofollow">Cancel reply</a></small></h3>
-          <form id="commentform" method="post" action="http://blog.okfn.org/wp-comments-post.php">
-            <div class="comment-avatar-box">
-              <div class="avb"> <img width="50" height="50" class="avatar avatar-50 photo avatar-default" src="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=50" alt=""> </div>
-            </div>
-            <div class="comment-content standard-form">
-              <p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
-              <fieldset>
-                <p class="comment-form-author">
-                  <label for="author">Name<span class="required"> *</span></label>
-                  <input type="text" aria-required="true" size="30" value="" name="author" id="author">
-                </p>
-                <p class="comment-form-email">
-                  <label for="email">Email<span class="required"> *</span></label>
-                  <input type="text" aria-required="true" size="30" value="" name="email" id="email">
-                </p>
-                <p class="comment-form-url">
-                  <label for="url">Website</label>
-                  <input type="text" size="30" value="" name="url" id="url">
-                </p>
-              
-                <div class="captchaSizeDivLarge"><img width="175" height="60" title="CAPTCHA Image" alt="CAPTCHA Image" src="http://blog.okfn.org/wp-content/plugins/si-captcha-for-wordpress/captcha/securimage_show.php?si_form_id=com&amp;prefix=1nTZmKNdrvk0CoyU" class="si-captcha" id="si_image_com">
-                  <input type="hidden" value="1nTZmKNdrvk0CoyU" name="si_code_com" id="si_code_com">
-                  <div id="si_refresh_com"> <a onclick="si_captcha_refresh('si_image_com','com','noaudio','/wp-content/plugins/si-captcha-for-wordpress/captcha','http://blog.okfn.org/wp-content/plugins/si-captcha-for-wordpress/captcha/securimage_show.php?si_form_id=com&amp;prefix='); return false;" title="Refresh Image" rel="nofollow" href="#"> <img width="22" height="20" onclick="this.blur();" alt="Refresh Image" src="http://blog.okfn.org/wp-content/plugins/si-captcha-for-wordpress/captcha/images/refresh.png" class="captchaImgRefresh"></a> </div>
-                </div>
-                <p>
-                  <label for="captcha_code" id="captcha_code_label">CAPTCHA Code</label>
-                  <span class="required"> *</span>
-                  <input type="text" size="6" name="captcha_code" id="captcha_code">
-                </p>
-              </fieldset>
-              <fieldset>
-                <p class="form-textarea">
-                  <textarea aria-required="true" rows="10" cols="60" id="comment" name="comment"></textarea>
-                </p>
-                <p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
-                <p class="form-submit">
-                  <input type="submit" value="Post Comment" id="submit" name="submit">
-                  <input type="hidden" id="comment_post_ID" value="7714" name="comment_post_ID">
-                  <input type="hidden" value="0" id="comment_parent" name="comment_parent">
-                </p>
-                <p style="display: none;">
-                  <input type="hidden" value="6a2af7f555" name="akismet_comment_nonce" id="akismet_comment_nonce">
-                </p>
-              </fieldset>
-            </div>
-            <!-- .comment-content standard-form -->
-            
-          </form>
-        </div>
-        <!-- #respond -->
-        
-        <div id="trackbacks">
-          <h3>2 trackbacks</h3>
-          <ul id="trackbacklist">
-            <li>
-              <h5><a class="url" rel="external nofollow" href="http://www.meneame.net/story/textus-plata-open-source-trabajar-colecciones-textos-metadatos">TEXTUS: plata "open source" para trabajar con colecciones de textos y metadatos [ENG]</a></h5>
-              <em>on December 20, 2011</em> </li>
-            <li>
-              <h5><a class="url" rel="external nofollow" href="http://tm.durusau.net/?p=19555">Textus « Another Word For It</a></h5>
-              <em>on December 23, 2011</em> </li>
-          </ul>
-        </div>
-      </div>
+    <div class="box post featured">
+      <?php include("inc/postPreview.php"); ?>
+    </div>
+    <div class="box post preview">
+      <?php include("inc/postPreview.php"); ?>
+    </div>
+    <div class="box post preview">
+      <?php include("inc/postPreview.php"); ?>
     </div>
   </div>
   <div id="sidebar" role="complementary"> 
     
     <!-- Static Blog Content (right column) -->
-    <div class="author-box"> <img width="50" height="50" title="Jonathan Gray" class="avatar user-35-avatar" alt="Avatar of Jonathan Gray" src="http://okfn.org/wp-content/uploads/avatars/35/83ee914219618f422510747014644653-bpthumb.jpg">
-      <p>by <a title="Jonathan Gray" href="http://okfn.org/members/jwyg/" rel="author">Jonathan Gray</a></p>
-    </div>
     <div class="box black">
       <form id="BFW" class="subscribe" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=okfn', 'popupwindow', 'scrollbars=yes,width=550,height=520')" method="post" action="http://feedburner.google.com/fb/a/mailverify">
         <h4>Subscribe</h4>
@@ -509,8 +347,7 @@
                       <br />
                       <input type="radio"  name="sitesearch" value="">
                       The Web
-                      </input>
-                      &nbsp;
+                      </input>&nbsp;
                       <input type="radio"  name="sitesearch" value="okfn.org" checked >
                       OKF Sites
                       </input>
@@ -519,7 +356,9 @@
                   </div>
                 </li>
               </ul>
-              <div class="license"> The content of this site is licensed under a Creative Commons Attribution 3.0 License (all jurisdictions). </div>
+              <div class="license">
+                The content of this site is licensed under a Creative Commons Attribution 3.0 License (all jurisdictions).
+              </div>
             </div>
             <!-- #first .widget-area -->
             
@@ -529,8 +368,7 @@
                   <h5 class="widgettitle">Meta</h5>
                   <div class="menu-footer-imprint-container">
                     <ul>
-                      <li><a href="http://blog.okfn.org/wp-login.php?action=register">Register</a></li>
-                      <li><a href="http://blog.okfn.org/wp-login.php">Log in</a></li>
+                      <li><a href="http://blog.okfn.org/wp-login.php?action=register">Register</a></li>			<li><a href="http://blog.okfn.org/wp-login.php">Log in</a></li>
                       <li><a title="Syndicate this site using RSS 2.0" href="http://blog.okfn.org/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
                       <li><a title="The latest comments to all posts in RSS" href="http://blog.okfn.org/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
                       <li><a title="Powered by WordPress, state-of-the-art semantic personal publishing platform." href="http://wordpress.org/">WordPress.org</a></li>
@@ -540,6 +378,7 @@
               </ul>
             </div>
             <!-- #second .widget-area -->
+            
             
             <div id="third" class="widget-area">
               <ul class="xoxo">
