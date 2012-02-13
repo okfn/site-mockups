@@ -140,7 +140,8 @@
               <p class="date"> December 20, 2011 <span>in <a rel="category tag" title="View all posts in Annotator" href="http://blog.okfn.org/category/okf-projects/annotator/">Annotator</a>, <a rel="category tag" title="View all posts in Bibliographic" href="http://blog.okfn.org/category/bibliographic/">Bibliographic</a>, <a rel="category tag" title="View all posts in Bibliographica" href="http://blog.okfn.org/category/okf-projects/bibliographica/">Bibliographica</a>, <a rel="category tag" title="View all posts in Free Culture" href="http://blog.okfn.org/category/free-culture/">Free Culture</a>, <a rel="category tag" title="View all posts in Ideas" href="http://blog.okfn.org/category/ideas/">Ideas</a>, <a rel="category tag" title="View all posts in Metadata" href="http://blog.okfn.org/category/metadata/">Metadata</a>, <a rel="category tag" title="View all posts in OKF Projects" href="http://blog.okfn.org/category/okf-projects/">OKF Projects</a>, <a rel="category tag" title="View all posts in Open Content" href="http://blog.okfn.org/category/open-content/">Open Content</a>, <a rel="category tag" title="View all posts in Open Data" href="http://blog.okfn.org/category/open-data/">Open Data</a>, <a rel="category tag" title="View all posts in Open Knowledge" href="http://blog.okfn.org/category/open-knowledge/">Open Knowledge</a>, <a rel="category tag" title="View all posts in Texts" href="http://blog.okfn.org/category/texts/">Texts</a>, <a rel="category tag" title="View all posts in WG Humanities" href="http://blog.okfn.org/category/working-groups/wg-humanities/">WG Humanities</a>, <a rel="category tag" title="View all posts in WG Open Bibliographic Data" href="http://blog.okfn.org/category/working-groups/wg-open-bibliographic-data/">WG Open Bibliographic Data</a>, <a rel="category tag" title="View all posts in WG Public Domain" href="http://blog.okfn.org/category/working-groups/wg-public-domain/">WG Public Domain</a>, <a rel="category tag" title="View all posts in Working Groups" href="http://blog.okfn.org/category/working-groups/">Working Groups</a></span> <span class="post-utility alignright"></span> </p>
             </div>
            
-            <div class="image" style="background-image:url(http://farm8.staticflickr.com/7141/6478263003_4c46df9158_o.jpg)">
+            <div class="image">
+            	<img src="http://farm8.staticflickr.com/7141/6478263003_4c46df9158_o.jpg" alt="" />
             </div>
             
             <div class="padder">
@@ -312,8 +313,11 @@
   <div id="sidebar" role="complementary"> 
     
     <!-- Static Blog Content (right column) -->
-    <div class="author-box"> <img width="50" height="50" title="Jonathan Gray" class="avatar user-35-avatar" alt="Avatar of Jonathan Gray" src="http://okfn.org/wp-content/uploads/avatars/35/83ee914219618f422510747014644653-bpthumb.jpg">
-      <p>by <a title="Jonathan Gray" href="http://okfn.org/members/jwyg/" rel="author">Jonathan Gray</a></p>
+    <div class="box author-box">
+      <div class="padder">
+        <img title="Jonathan Gray" class="avatar" alt="Avatar of Jonathan Gray" src="http://okfn.org/wp-content/uploads/avatars/35/83ee914219618f422510747014644653-bpfull.jpg">
+        <p><a title="Jonathan Gray" href="http://okfn.org/members/jwyg/" rel="author">Jonathan Gray</a> is Community Coordinator at the Open Knowledge Foundation, which means he spends much of his time talking to people, and encouraging them to talk to each other, and thinking about how the Foundation can continue to support communities of people interested in creating or working with open knowledge in different areas — from scientists and civil servants to hackers and historians.</p>
+      </div>
     </div>
     <div class="box black">
       <form id="BFW" class="subscribe" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=okfn', 'popupwindow', 'scrollbars=yes,width=550,height=520')" method="post" action="http://feedburner.google.com/fb/a/mailverify">

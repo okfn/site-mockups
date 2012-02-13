@@ -232,8 +232,7 @@ body#bp-default #wp-admin-bar .padder {
 	display:block;
 	background-repeat: no-repeat;
 	background-position: center center;
-	height:419px;
-	background-color: #f3f4f3;
+	text-align:center;
 }
 #content .post h2 {
 	margin-bottom:5px;
@@ -270,7 +269,9 @@ body#bp-default #wp-admin-bar .padder {
 #content .post .entry ol li small {
   line-height: 1.4em;
 }
-
+#content .post.featured .image {
+	height:419px;
+}
 #content .post.featured .image img {
 	width:690px;
 }
@@ -601,4 +602,12 @@ footer .inner a:hover {
 }
 #blog-single #respond .form-submit {
 	text-align:right;
+}
+
+
+#sidebar .author-box img {
+	width:210px;
+}
+#sidebar .author-box p {
+	margin:9px 0px 0px 0px;
 }
